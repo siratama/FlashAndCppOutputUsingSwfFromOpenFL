@@ -7,13 +7,13 @@
     <window orientation="portrait" fps="24" background="#ffffff" antialiasing="0" />
 
     <section if="cpp">
-        <app main="haxegame.MainForOpenFL" path="openfl/export" file="MovieClipRotationTest" />
+        <app main="haxegame.MainForOpenFL" path="openfl/export" file="main" />
         <source path="src/app" />
         <source path="src/openfl" />
         <library path="openfl/assets/view.swf" />
     </section>
     <section if="flash">
-        <app main="haxegame.MainForFlash" path="openfl/export" file="MovieClipRotationTest" />
+        <app main="haxegame.MainForFlash" path="openfl/export" file="main" />
         <source path="src/app" />
         <source path="src/flash" />
     </section>
