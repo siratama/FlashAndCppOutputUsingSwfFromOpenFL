@@ -8,16 +8,15 @@
 
     <section if="cpp">
         <app main="haxegame.MainForOpenFL" path="openfl/export" file="main"/>
-        <source path="src/app"/>
         <source path="src/openfl"/>
         <library path="openfl/assets/view.swf"/>
     </section>
     <section if="flash">
         <app main="haxegame.MainForFlash" path="openfl/export" file="main"/>
-        <source path="src/app"/>
         <source path="src/flash"/>
     </section>
 
+    <source path="src/app"/>
     <haxelib name="openfl"/>
     <haxelib name="swf"/>
 
