@@ -1,0 +1,6 @@
+-swf deploy/main.swf
+-main haxegame.MainForFlash
+-swf-version 11
+-swf-header 500:500:30:000000
+-cp src/app
+-cp src/flash
