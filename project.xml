@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
-	
-	<meta title="FlashAndCppOutputUsingSwf" package="com.dango_itimi.FlashAndCppOutputUsingSwf" version="1.0.0" company="dango_itimi.com" />
 
-    <window width="320" height="480" />
-    <window orientation="portrait" fps="24" background="#ffffff" antialiasing="0" />
+    <meta title="FlashAndCppOutputUsingSwf" package="com.dango_itimi.FlashAndCppOutputUsingSwf" version="1.0.0" company="dango_itimi.com"/>
+
+    <window width="320" height="480"/>
+    <window orientation="portrait" fps="24" background="#ffffff" antialiasing="0"/>
 
     <section if="cpp">
-        <app main="haxegame.MainForOpenFL" path="openfl/export" file="main" />
-        <source path="src/app" />
-        <source path="src/openfl" />
-        <library path="openfl/assets/view.swf" />
+        <app main="haxegame.MainForOpenFL" path="openfl/export" file="main"/>
+        <source path="src/app"/>
+        <source path="src/openfl"/>
+        <library path="openfl/assets/view.swf"/>
     </section>
     <section if="flash">
-        <app main="haxegame.MainForFlash" path="openfl/export" file="main" />
-        <source path="src/app" />
-        <source path="src/flash" />
+        <app main="haxegame.MainForFlash" path="openfl/export" file="main"/>
+        <source path="src/app"/>
+        <source path="src/flash"/>
     </section>
 
-	<haxelib name="openfl" />
-    <haxelib name="swf" />
+    <haxelib name="openfl"/>
+    <haxelib name="swf"/>
 
-
-	<assets path="openfl/assets" rename="assets" exclude="openfl.svg" />
+    <assets path="openfl/assets" rename="assets" exclude="openfl.svg"/>
 
 </project>
