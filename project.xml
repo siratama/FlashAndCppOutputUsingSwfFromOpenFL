@@ -10,6 +10,7 @@
         <app main="haxegame.MainForOpenFL" path="openfl/export" file="main"/>
         <source path="src/openfl"/>
         <library path="openfl/assets/view.swf"/>
+        <assets path="openfl/assets/BgmSound.ogg" id="haxegame.BgmSound" />
     </section>
     <section if="flash">
         <app main="haxegame.MainForFlash" path="openfl/export" file="main"/>
@@ -20,6 +21,8 @@
     <haxelib name="openfl"/>
     <haxelib name="swf"/>
 
+    <!--
     <assets path="openfl/assets" rename="assets" exclude="openfl.svg"/>
+    -->
 
 </project>

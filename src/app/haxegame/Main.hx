@@ -1,5 +1,6 @@
 package haxegame;
 
+import flash.media.Sound;
 import flash.display.MovieClip;
 import flash.events.Event;
 import flash.Lib;
@@ -41,6 +42,9 @@ class Main
 	{
 		var walkView = new WalkView();
 		root.addChild(walkView);
+
+		var bgmSound:Sound = new BgmSound();
+		bgmSound.play();
 
 		finish();
 	}
